@@ -1,0 +1,3 @@
+Ask Question
+Take the 2-minute tour × Stack Overflow is a question and answer site for professional and enthusiast programmers. It's 100% free, no registration required.
+Best way to read a text file
