@@ -95,6 +95,7 @@ public class ServerZIP {
 			}
 			
 			
+			// feature implemented..
 			long endMilli = System.currentTimeMillis();
 			long diff = (endMilli - startmilli) / 1000;
 			System.out.print("time to send " + msg_count + " is " + diff);
