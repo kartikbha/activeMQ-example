@@ -80,6 +80,8 @@ public class ServerZIP {
 
 			long startmilli = System.currentTimeMillis();
 
+
+// bug fix number 567
 			for (int i = 1; i <= msg_count; i++) {
 				producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
