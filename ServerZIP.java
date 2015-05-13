@@ -80,6 +80,8 @@ public class ServerZIP {
 
 			long startmilli = System.currentTimeMillis();
 
+
+// bug fix number 567
 			for (int i = 1; i <= msg_count; i++) {
 				producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
@@ -93,6 +95,7 @@ public class ServerZIP {
 			}
 			
 			
+			// feature implemented..
 			long endMilli = System.currentTimeMillis();
 			long diff = (endMilli - startmilli) / 1000;
 			System.out.print("time to send " + msg_count + " is " + diff);

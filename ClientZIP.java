@@ -34,6 +34,8 @@ public class ClientZIP {
 		Connection connection;
 		try {
 
+
+
 			connectionFactory.setAlwaysSessionAsync(true);
 			connectionFactory.setOptimizeAcknowledge(true);
 
